@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Swagger';
+    src:url('Swagger.ttf.woff') format('woff'),
+        url('Swagger.ttf.svg#Swagger') format('svg'),
+        url('Swagger.ttf.eot'),
+        url('Swagger.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+};

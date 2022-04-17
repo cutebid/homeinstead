@@ -1,0 +1,673 @@
+@import url(c:\Users\Habeeb\Desktop\Task\homeinstead\font\font.css);
+@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Open+Sans:wght@300;400;500;600;700;800&family=Pangolin&family=Patrick+Hand&display=swap");
+@import url("http://fonts.cdnfonts.com/css/western-swagger");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+body .main-wrapper {
+  background: url("https://www.homeinstead.com/siteassets/corporate/cost-of-care/home-instead-caregiver-and-senior-man-prepare-healthy-meal-together-in-kitchen.jpg") no-repeat #3b3b3b;
+  background-blend-mode: overlay;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+
+body .main-wrapper .header {
+  height: 150px;
+  position: relative;
+}
+
+body .main-wrapper .header.sticky {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+body .main-wrapper .header.sticky nav .dropdown a {
+  background-color: #b3a9dc;
+}
+
+body .main-wrapper .header .logo-link {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+body .main-wrapper .header .logo-link img {
+  height: 150px;
+}
+
+body .main-wrapper .header .search-wrapper {
+  border-radius: 10px;
+  margin: 26px 0 0;
+}
+
+body .main-wrapper .header .search-wrapper .search {
+  position: relative;
+}
+
+body .main-wrapper .header .search-wrapper .search input {
+  border: none;
+  outline: none;
+  padding: 8px 40px;
+  border-radius: 5px;
+}
+
+body .main-wrapper .header .search-wrapper .search input::-webkit-input-placeholder {
+  color: #e5e5e5;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+body .main-wrapper .header .search-wrapper .search input:-ms-input-placeholder {
+  color: #e5e5e5;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+body .main-wrapper .header .search-wrapper .search input::-ms-input-placeholder {
+  color: #e5e5e5;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+body .main-wrapper .header .search-wrapper .search input::placeholder {
+  color: #e5e5e5;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+body .main-wrapper .header .search-wrapper .search .material-icons {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+body .main-wrapper .header .search-wrapper .text-white {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: 500;
+}
+
+body .main-wrapper .header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #706e6d;
+  border-bottom: 1px solid #706e6d;
+  padding-left: 150px;
+}
+
+body .main-wrapper .header nav .lists {
+  list-style: none;
+}
+
+body .main-wrapper .header nav .lists .list-item {
+  margin-left: 20px;
+}
+
+body .main-wrapper .header nav .lists .list-item .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+body .main-wrapper .header nav .lists .list-item .dropdown a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+body .main-wrapper .header nav .nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: #0088a4;
+  padding: 15px 10px;
+}
+
+body .main-wrapper .hero-text {
+  width: 50%;
+  margin: 100px 150px;
+}
+
+body .main-wrapper .hero-text .hero-title {
+  color: #fff;
+  font-weight: 300;
+  font-size: 2.6rem;
+  letter-spacing: 2px;
+}
+
+body .main-wrapper .hero-text .hero-title span {
+  font-weight: 600;
+}
+
+body .main-wrapper .hero-text .hero-info {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+body .main-wrapper .hero-text .apply-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0081a3;
+  padding: 15px 30px;
+  font-weight: 400;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 25%;
+  letter-spacing: 1px;
+}
+
+body .find-wrapper {
+  background-color: #631b4b;
+  position: relative;
+}
+
+body .find-wrapper .arrow-down-icon {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #631b4b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .find-wrapper .arrow-down-icon svg {
+  fill: white;
+  width: 100%;
+  height: 100%;
+}
+
+body .find-wrapper .input-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+body .find-wrapper .input-wrapper .text {
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #0088a4;
+  padding: 20px 80px;
+  letter-spacing: 1px;
+}
+
+body .find-wrapper .input-wrapper .text span {
+  font-weight: 600;
+}
+
+body .find-wrapper .input-wrapper .search {
+  position: relative;
+  top: -15px;
+}
+
+body .find-wrapper .input-wrapper .search input {
+  border: none;
+  outline: none;
+  padding: 30px 150px;
+  border-radius: 5px;
+}
+
+body .find-wrapper .input-wrapper .search input::-webkit-input-placeholder {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #0088a4;
+          text-decoration-color: #0088a4;
+}
+
+body .find-wrapper .input-wrapper .search input:-ms-input-placeholder {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  text-decoration-color: #0088a4;
+}
+
+body .find-wrapper .input-wrapper .search input::-ms-input-placeholder {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  text-decoration-color: #0088a4;
+}
+
+body .find-wrapper .input-wrapper .search input::placeholder {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #0088a4;
+          text-decoration-color: #0088a4;
+}
+
+body .find-wrapper .input-wrapper .search .material-icons {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 85px;
+  height: 85px;
+  background-color: #0081a3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+body .find-wrapper .heart-shape {
+  position: absolute;
+  top: 10px;
+  right: 250px;
+  width: 250px;
+  height: 250px;
+}
+
+body .text-wrapper {
+  width: 70%;
+}
+
+body .text-wrapper h4 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+body .text-wrapper h4 span {
+  font-weight: 700;
+}
+
+body .text-wrapper p {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+body .text-wrapper p span {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #631b4b;
+          text-decoration-color: #631b4b;
+}
+
+body .hero-wrapper {
+  background: url("https://www.homeinstead.com/contentassets/3541d25b92294957bf3f6f2fe858dce9/questions-to-ask-home-care-providers.jpg") no-repeat #3b3b3b;
+  background-blend-mode: overlay;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
+body .hero-wrapper .hero-text {
+  width: 70%;
+  padding: 150px 150px;
+}
+
+body .hero-wrapper .hero-text .hero-title {
+  color: #fff;
+  font-weight: 300;
+  font-size: 2.7rem;
+  letter-spacing: 2px;
+}
+
+body .hero-wrapper .hero-text .hero-title span {
+  font-weight: 600;
+}
+
+body .hero-wrapper .hero-text .hero-info {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+body .hero-wrapper .hero-text .apply-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0081a3;
+  padding: 15px 30px;
+  font-weight: 400;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35%;
+  letter-spacing: 1px;
+}
+
+body .hero-wrapper .arrow-down-icon {
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #0088a4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .hero-wrapper .arrow-down-icon svg {
+  fill: white;
+  width: 100%;
+  height: 100%;
+}
+
+body .news-wrapper {
+  padding: 5em 5em;
+}
+
+body .news-wrapper .flex-item {
+  width: 45%;
+}
+
+body .news-wrapper .flex-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .news-wrapper .flex-item .news-info {
+  font-size: 1.3rem;
+  word-spacing: 2px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+body .news-wrapper .flex-item .news-info span {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #631b4b;
+          text-decoration-color: #631b4b;
+}
+
+body .news-wrapper .flex-item .news-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #611b4b;
+  padding: 20px 60px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+body .quote-wrapper {
+  background-color: #0088a4;
+  text-align: center;
+  padding: 100px 0;
+}
+
+body .quote-wrapper .Row {
+  width: 66%;
+}
+
+body .quote-wrapper .Row p {
+  font-family: "Patrick Hand", cursive;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+body .quote-wrapper .Row label {
+  color: #fff;
+}
+
+body .quote-wrapper .Row label .text-bold {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+body .quote-wrapper .Row label .text-thin {
+  font-size: 1rem;
+}
+
+body .slide-wrapper {
+  background-color: #f5f5f5;
+}
+
+body .slide-wrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .slide-wrapper .overflow-wrapper {
+  border: 1px solid #b3a9dc;
+}
+
+body .slide-wrapper .overflow-wrapper .overflow-container {
+  overflow-x: scroll;
+  background-color: #ebe9f0;
+}
+
+body .slide-wrapper .overflow-wrapper .overflow-container::-webkit-scrollbar {
+  height: 4px;
+}
+
+body .slide-wrapper .overflow-wrapper .overflow-container::-webkit-scrollbar-track {
+  background-color: lightgrey;
+  width: 4px;
+}
+
+body .slide-wrapper .overflow-wrapper .overflow-container::-webkit-scrollbar-thumb {
+  background-color: #6c5da5;
+}
+
+body .slide-wrapper .overflow-wrapper .overflow-container .item-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+body .slide-wrapper .overflow-wrapper .overflow-container .item-wrapper .item {
+  position: relative;
+  width: 300px;
+  margin-right: 20px;
+}
+
+body .slide-wrapper .overflow-wrapper .overflow-container .item-wrapper .item p {
+  margin-top: 20px;
+}
+
+body .slide-wrapper .overflow-wrapper .overflow-container .item-wrapper .item div {
+  background-color: #fff;
+  padding: 10px;
+  -webkit-box-shadow: 4px 6px 4px -182px white;
+          box-shadow: 4px 6px 4px -182px white;
+  border-radius: 8px;
+  color: #545353;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+body .slide-wrapper .overflow-wrapper .overflow-container .item-wrapper .item div::after {
+  content: "";
+  width: 35px;
+  height: 35px;
+  -webkit-clip-path: polygon(8% 28%, 9% 80%, 99% 29%);
+          clip-path: polygon(8% 28%, 9% 80%, 99% 29%);
+  background-color: #fff;
+  position: absolute;
+  top: 140px;
+  left: 15px;
+}
+
+body .slide-wrapper .message-of-thanks {
+  background-color: #fff;
+}
+
+body .slide-wrapper .message-of-thanks div span {
+  color: #7c7979;
+}
+
+body .slide-wrapper .message-of-thanks div span a {
+  color: #6c5da5;
+  font-weight: 500;
+}
+
+body .slide-wrapper .message-of-thanks .message-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #6c5da5;
+  padding: 10px 10px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+body .flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 150px 0;
+}
+
+body .flex-wrapper .wrapper {
+  background-color: #FAFAFB;
+  padding: 20px;
+}
+
+body .flex-wrapper .wrapper a {
+  width: 330px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #611b4b;
+}
+
+body .flex-wrapper .wrapper a:hover {
+  -webkit-transform: translate3d(0px, 3px, 3px);
+          transform: translate3d(0px, 3px, 3px);
+}
+
+body .flex-wrapper .wrapper a img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .flex-wrapper .wrapper a h5 {
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+body .flex-wrapper .services-link {
+  text-decoration: none;
+  color: #611b4b;
+  border: 1px solid #611b4b;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 20px 70px;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
