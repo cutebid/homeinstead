@@ -1,171 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <script
-      src="https://kit.fontawesome.com/1dec0aadaa.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
 
-    <title>Homeinstead</title>
-  </head>
-  <body>
-    <div class="container-fluid p-0 main-wrapper">
-      <div class="col-md-12">
-        <header class="header d-flex flex-column justify-content-between">
-          <a class="logo-link" href="#"
-            ><img src="./images/logo.png" alt="logo"
-          /></a>
-          <div class="align-self-end d-flex search-wrapper">
-            <div class="search me-3">
-              <input type="text" placeholder="Search Website" name="" id="" />
-              <span class="material-icons">search </span>
-            </div>
-            <p class="text-white me-4">Text Size: A | A</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <script src="https://kit.fontawesome.com/1dec0aadaa.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <title>Homeinstead</title>
+</head>
+
+<body>
+  <div class="container-fluid p-0 main-wrapper" id="c1">
+    <div class="col-md-12">
+      <header class="header d-flex flex-column justify-content-between">
+        <a class="logo-link" href="#"><img src="./images/logo.png" alt="logo" /></a>
+        <div class="align-self-end d-flex search-wrapper">
+          <div class="search me-3">
+            <input type="text" placeholder="Search Website" name="" id="" />
+            <span class="material-icons">search </span>
           </div>
-          <nav>
-            <ul class="d-flex align-items-center mt-2 lists">
-              <li class="list-item">
-                <div class="dropdown">
-                  <a href="#" class="dropbtn">Our expertise</a>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div>
-              </li>
-              <li class="list-item">
-                <div class="dropdown">
-                  <a href="#" class="dropbtn">Home care services </a>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div>
-              </li>
-              <li class="list-item">
-                <div class="dropdown">
-                  <a href="#" class="dropbtn">Caring technology</a>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div>
-              </li>
-              <li class="list-item">
-                <div class="dropdown">
-                  <a href="#" class="dropbtn">Advice & support</a>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div>
-              </li>
-              <li class="list-item">
-                <div class="dropdown">
-                  <a href="#" class="dropbtn">Join our team</a>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div>
-              </li>
-              <li class="list-item">
-                <div class="dropdown">
-                  <a href="#" class="dropbtn">Getting started</a>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div>
-              </li>
-              <li class="list-item">
-                <div class="dropdown">
-                  <a href="#" class="dropbtn">News & event</a>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div>
-              </li>
-              <li class="list-item">
-                <div class="dropdown">
-                  <a href="#" class="dropbtn">Contact us</a>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <a class="nav-link" href="#">Find care</a>
-          </nav>
-        </header>
-        <div class="hero-text">
-          <p class="hero-title">
-            Become a Care Professional <span> today</span>
-          </p>
-          <p class="hero-info mt-4">
-            96% of our caregivers are proud to work for <br />
-            Home Instead and you could be, too
-          </p>
-          <a class="apply-link mt-5" href="#"> Apply now </a>
+          <p class="text-white text1 me-4">Text Size: A | A</p>
+          <svg class="mt-2 hamburger" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+            fill="white">
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
         </div>
+        <nav>
+          <ul class="d-flex align-items-center mt-2 lists">
+            <li class="list-item">
+              <div class="dropdown">
+                <a href="#" class="dropbtn">Our expertise</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="dropdown">
+                <a href="#" class="dropbtn">Home care services </a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="dropdown">
+                <a href="#" class="dropbtn">Caring technology</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="dropdown">
+                <a href="#" class="dropbtn">Advice & support</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="dropdown">
+                <a href="#" class="dropbtn">Join our team</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="dropdown">
+                <a href="#" class="dropbtn">Getting started</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="dropdown">
+                <a href="#" class="dropbtn">News & event</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="dropdown">
+                <a href="#" class="dropbtn">Contact us</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a class="nav-link" href="#">Find care</a>
+        </nav>
+      </header>
+      <div class="hero-text">
+        <p class="hero-title">
+          Become a Care Professional <span> today</span>
+        </p>
+        <p class="hero-info mt-4">
+          96% of our caregivers are proud to work for <br />
+          Home Instead and you could be, too
+        </p>
+        <a class="apply-link mt-5" href="#"> Apply now </a>
       </div>
     </div>
-    <section class="container-fluid find-wrapper py-3">
-      <span class="arrow-down-icon"
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          height="24px"
-          viewBox="0 0 24 24"
-          width="24px"
-          fill="#000000"
-        >
-          <path d="M0 0h24v24H0V0z" fill="none" />
-          <path
-            d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
-          /></svg
-      ></span>
-      <div
-        class="d-flex flex-column align-items-center justify-content-center py-5 input-wrapper"
-      >
-        <p class="text">Find care <span>near you</span></p>
-        <div class="search me-3">
-          <input type="text" placeholder="Enter postcode" name="" id="" />
-          <span class="material-icons">search </span>
-        </div>
+  </div>
+  <section class="container-fluid find-wrapper py-3">
+    <span class="arrow-down-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+        fill="#000000">
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
+      </svg></span>
+    <div class="d-flex flex-column align-items-center justify-content-center py-5 input-wrapper">
+      <p class="text">Find care <span>near you</span></p>
+      <div class="search me-3">
+        <input type="text" placeholder="Enter postcode" name="" id="" />
+        <span class="material-icons">search </span>
       </div>
-      <img
-        src="./images/heart-removebg-preview.png"
-        alt="heart shape"
-        class="heart-shape"
-      />
-    </section>
-    <section class="container-fluid py-5">
-      <div class="m-auto text-center text-wrapper row">
-        <h4>Live well at home, <span>your way</span> with Home Instead</h4>
+    </div>
+    <img src="./images/heart-removebg-preview.png" alt="heart shape" class="heart-shape" />
+  </section>
+  <section class="container-fluid py-5">
+    <div class="m-auto text-center text-wrapper row">
+      <h3>Live well at home, <span>your way</span> with Home Instead</h4>
         <p class="mt-3">
           We understand that home is where you feel the happiest. If you want to
           stay living comfortably at home, you can live well, your way with Home
@@ -189,236 +171,208 @@
           to live happily, comfortably and independently at home.
         </p>
         <p>Start your Home Instead journey today.</p>
-      </div>
-    </section>
-    <section class="container-fluid p-0 hero-wrapper">
-      <div class="col-md-12">
-        <div class="hero-text">
-          <p class="hero-title">
-            Find your place, find your <span> purpose</span>
-          </p>
-          <p class="hero-info mt-3">
-            It’s time to feel good about a hard day’s work and finish each day
-            knowing you’ve made a difference
-          </p>
-          <a class="apply-link mt-5" href="#">Join our team</a>
-        </div>
-      </div>
-      <span class="arrow-down-icon"
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          height="24px"
-          viewBox="0 0 24 24"
-          width="24px"
-          fill="#000000"
-        >
-          <path d="M0 0h24v24H0V0z" fill="none" />
-          <path
-            d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
-          /></svg
-      ></span>
-    </section>
-    <section class="container-fluid news-wrapper">
-      <div class="d-flex justify-content-around row">
-        <div class="images d-flex flex-item align-items-center">
-          <img
-            src="./images/logo-removebg-preview.png"
-            alt="logo"
-            height="150px"
-            width="300px"
-          />
-          <img
-            src="./images/health-removebg-preview.png"
-            alt="health logo"
-            height="200px"
-            width="300px"
-          />
-        </div>
-        <div class="flex-item pt-5">
-          <p class="news-info">
-            We're delighted to partner with Boots UK and to be the first home
-            care company to be made available to Boots UK customers via the
-            <span> Boots Health Hub </span>. Together, we're making it easier
-            for older people and their families to find the care they deserve.
-          </p>
-          <br />
-          <a class="news-btn" href="#"> Read more here </a>
-        </div>
-      </div>
-    </section>
-    <section class="container-fluid quote-wrapper">
-      <div class="row Row m-auto">
-        <p>
-          <sup
-            ><i class="fa-solid fa-quote-left" style="font-size: 10px"></i
-          ></sup>
-          There is a real feeling of assurance that the person you love and care
-          for is being taken care of in your absence. That’s what Home Instead
-          does. My aunt hates to see her CAREGivers go. There are times she
-          probably would like to see them more than me.
-          <sup
-            ><i class="fa-solid fa-quote-right" style="font-size: 10px"></i
-          ></sup>
+    </div>
+  </section>
+  <section class="container-fluid p-0 hero-wrapper">
+    <div class="col-md-12">
+      <div class="hero-text">
+        <p class="hero-title">
+          Find your place, find your <span> purpose</span>
         </p>
-        <label class="d-flex flex-column">
-          <span class="text-bold">Ryan K</span>
-          <span class="text-thin">Client's nephew</span>
-        </label>
+        <p class="hero-info mt-3">
+          It’s time to feel good about a hard day’s work and finish each day
+          knowing you’ve made a difference
+        </p>
+        <a class="apply-link mt-5" href="#">Join our team</a>
       </div>
-    </section>
-    <section class="container-fluid p-0 pt-4 pb-5 slide-wrapper">
-      <div class="col-md-12">
-        <div class="d-flex flex-column">
-          <div class="align-self-center">
-            <img
-              src="./images/thank-you-removebg-preview.png"
-              alt="thank you message"
-            />
+    </div>
+    <span class="arrow-down-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+        fill="#000000">
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
+      </svg></span>
+  </section>
+  <section class="container-fluid news-wrapper">
+    <div class="d-flex justify-content-around row">
+      <div class="images d-flex flex-item align-items-center">
+        <img src="./images/logo-removebg-preview.png" alt="logo" height="150px" width="300px" class="image1" />
+        <img src="./images/health-removebg-preview.png" alt="health logo" height="200px" width="300px" class="image2" />
+      </div>
+      <div class="flex-item pt-md-5">
+        <p class="news-info">
+          We're delighted to partner with Boots UK and to be the first home
+          care company to be made available to Boots UK customers via the
+          <span> Boots Health Hub </span>. Together, we're making it easier
+          for older people and their families to find the care they deserve.
+        </p>
+        <br />
+        <a class="news-btn" href="#"> Read more here </a>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid quote-wrapper">
+    <div class="row Row m-auto">
+      <p>
+        <sup><i class="fa-solid fa-quote-left" style="font-size: 10px"></i></sup>
+        There is a real feeling of assurance that the person you love and care
+        for is being taken care of in your absence. That’s what Home Instead
+        does. My aunt hates to see her CAREGivers go. There are times she
+        probably would like to see them more than me.
+        <sup><i class="fa-solid fa-quote-right" style="font-size: 10px"></i></sup>
+      </p>
+      <label class="d-flex flex-column">
+        <span class="text-bold">Ryan K</span>
+        <span class="text-thin">Client's nephew</span>
+      </label>
+    </div>
+  </section>
+  <section class="container-fluid p-0 pt-4 pb-5 slide-wrapper">
+    <div class="col-md-12">
+      <div class="d-flex flex-column">
+        <div class="align-self-center">
+          <img src="./images/thank-you-removebg-preview.png" alt="thank you message" />
+        </div>
+        <div class="overflow-wrapper mt-3 mx-4">
+          <div class="overflow-container p-3">
+            <div class="item-wrapper">
+              <div class="item">
+                <div>
+                  Rotherham home instead continue to deliver great service
+                  andstandards of excellence to staff and clients alike Thank
+                  you Adrian ward, care manager
+                </div>
+                <p>
+                  to <span>All staff</span><br />
+                  from <span>dell marshall-caregiver</span>
+                </p>
+              </div>
+              <div class="item">
+                <div>
+                  Rotherham home instead continue to deliver great service
+                  andstandards of excellence to staff and clients alike Thank
+                  you Adrian ward, care manager
+                </div>
+                <p>
+                  to <span>All staff</span><br />
+                  from <span>dell marshall-caregiver</span>
+                </p>
+              </div>
+              <div class="item">
+                <div>
+                  Rotherham home instead continue to deliver great service
+                  andstandards of excellence to staff and clients alike Thank
+                  you Adrian ward, care manager
+                </div>
+                <p>
+                  to <span>All staff</span><br />
+                  from <span>dell marshall-caregiver</span>
+                </p>
+              </div>
+              <div class="item">
+                <div>
+                  Rotherham home instead continue to deliver great service
+                  andstandards of excellence to staff and clients alike Thank
+                  you Adrian ward, care manager
+                </div>
+                <p>
+                  to <span>All staff</span><br />
+                  from <span>dell marshall-caregiver</span>
+                </p>
+              </div>
+              <div class="item">
+                <div>
+                  Rotherham home instead continue to deliver great service
+                  andstandards of excellence to staff and clients alike Thank
+                  you Adrian ward, care manager
+                </div>
+                <p>
+                  to <span>All staff</span><br />
+                  from <span>dell marshall-caregiver</span>
+                </p>
+              </div>
+              <div class="item">
+                <div>
+                  Rotherham home instead continue to deliver great service
+                  andstandards of excellence to staff and clients alike Thank
+                  you Adrian ward, care manager
+                </div>
+                <p>
+                  to <span>All staff</span><br />
+                  from <span>dell marshall-caregiver</span>
+                </p>
+              </div>
+              <div class="item">
+                <div>
+                  Rotherham home instead continue to deliver great service
+                  andstandards of excellence to staff and clients alike Thank
+                  you Adrian ward, care manager
+                </div>
+                <p>
+                  to <span>All staff</span><br />
+                  from <span>dell marshall-caregiver</span>
+                </p>
+              </div>
+              <div class="item">
+                <div>
+                  Rotherham home instead continue to deliver great service
+                  andstandards of excellence to staff and clients alike Thank
+                  you Adrian ward, care manager
+                </div>
+                <p>
+                  to <span>All staff</span><br />
+                  from <span>dell marshall-caregiver</span>
+                </p>
+              </div>
+              <div class="item">
+                <div>
+                  Rotherham home instead continue to deliver great service
+                  andstandards of excellence to staff and clients alike Thank
+                  you Adrian ward, care manager
+                </div>
+                <p>
+                  to <span>All staff</span><br />
+                  from <span>dell marshall-caregiver</span>
+                </p>
+              </div>
+              <div class="item">
+                <div>
+                  Rotherham home instead continue to deliver great service
+                  andstandards of excellence to staff and clients alike Thank
+                  you Adrian ward, care manager
+                </div>
+                <p>
+                  to <span>All staff</span><br />
+                  from <span>dell marshall-caregiver</span>
+                </p>
+              </div>
+              <div class="item">
+                <div>
+                  Rotherham home instead continue to deliver great service
+                  andstandards of excellence to staff and clients alike Thank
+                  you Adrian ward, care manager
+                </div>
+                <p>
+                  to <span>All staff</span><br />
+                  from <span>dell marshall-caregiver</span>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="overflow-wrapper mt-3 mx-4">
-            <div class="overflow-container p-3">
-              <div class="item-wrapper">
-                <div class="item">
-                  <div>
-                    Rotherham home instead continue to deliver great service
-                    andstandards of excellence to staff and clients alike Thank
-                    you Adrian ward, care manager
-                  </div>
-                  <p>
-                    to <span>All staff</span><br />
-                    from <span>dell marshall-caregiver</span>
-                  </p>
-                </div>
-                <div class="item">
-                  <div>
-                    Rotherham home instead continue to deliver great service
-                    andstandards of excellence to staff and clients alike Thank
-                    you Adrian ward, care manager
-                  </div>
-                  <p>
-                    to <span>All staff</span><br />
-                    from <span>dell marshall-caregiver</span>
-                  </p>
-                </div>
-                <div class="item">
-                  <div>
-                    Rotherham home instead continue to deliver great service
-                    andstandards of excellence to staff and clients alike Thank
-                    you Adrian ward, care manager
-                  </div>
-                  <p>
-                    to <span>All staff</span><br />
-                    from <span>dell marshall-caregiver</span>
-                  </p>
-                </div>
-                <div class="item">
-                  <div>
-                    Rotherham home instead continue to deliver great service
-                    andstandards of excellence to staff and clients alike Thank
-                    you Adrian ward, care manager
-                  </div>
-                  <p>
-                    to <span>All staff</span><br />
-                    from <span>dell marshall-caregiver</span>
-                  </p>
-                </div>
-                <div class="item">
-                  <div>
-                    Rotherham home instead continue to deliver great service
-                    andstandards of excellence to staff and clients alike Thank
-                    you Adrian ward, care manager
-                  </div>
-                  <p>
-                    to <span>All staff</span><br />
-                    from <span>dell marshall-caregiver</span>
-                  </p>
-                </div>
-                <div class="item">
-                  <div>
-                    Rotherham home instead continue to deliver great service
-                    andstandards of excellence to staff and clients alike Thank
-                    you Adrian ward, care manager
-                  </div>
-                  <p>
-                    to <span>All staff</span><br />
-                    from <span>dell marshall-caregiver</span>
-                  </p>
-                </div>
-                <div class="item">
-                  <div>
-                    Rotherham home instead continue to deliver great service
-                    andstandards of excellence to staff and clients alike Thank
-                    you Adrian ward, care manager
-                  </div>
-                  <p>
-                    to <span>All staff</span><br />
-                    from <span>dell marshall-caregiver</span>
-                  </p>
-                </div>
-                <div class="item">
-                  <div>
-                    Rotherham home instead continue to deliver great service
-                    andstandards of excellence to staff and clients alike Thank
-                    you Adrian ward, care manager
-                  </div>
-                  <p>
-                    to <span>All staff</span><br />
-                    from <span>dell marshall-caregiver</span>
-                  </p>
-                </div>
-                <div class="item">
-                  <div>
-                    Rotherham home instead continue to deliver great service
-                    andstandards of excellence to staff and clients alike Thank
-                    you Adrian ward, care manager
-                  </div>
-                  <p>
-                    to <span>All staff</span><br />
-                    from <span>dell marshall-caregiver</span>
-                  </p>
-                </div>
-                <div class="item">
-                  <div>
-                    Rotherham home instead continue to deliver great service
-                    andstandards of excellence to staff and clients alike Thank
-                    you Adrian ward, care manager
-                  </div>
-                  <p>
-                    to <span>All staff</span><br />
-                    from <span>dell marshall-caregiver</span>
-                  </p>
-                </div>
-                <div class="item">
-                  <div>
-                    Rotherham home instead continue to deliver great service
-                    andstandards of excellence to staff and clients alike Thank
-                    you Adrian ward, care manager
-                  </div>
-                  <p>
-                    to <span>All staff</span><br />
-                    from <span>dell marshall-caregiver</span>
-                  </p>
-                </div>
-              </div>
+          <div class="d-flex justify-content-between align-items-center message-of-thanks p-3">
+            <div>
+              <img src="./images/small-removebg-preview.png" alt=" thank-you" />
+              <span> view other <a href="#"> Messages of Thanks </a></span>
             </div>
-            <div
-              class="d-flex justify-content-between align-items-center message-of-thanks p-3"
-            >
-              <div>
-                <img
-                  src="./images/small-removebg-preview.png"
-                  alt=" thank-you"
-                />
-                <span> view other <a href="#"> Messages of Thanks </a></span>
-              </div>
-              <a href="#" class="message-link">Say 'Thank You' to CAREGivers</a>
-            </div>
+            <a href="#" class="message-link">Say 'Thank You' to CAREGivers</a>
           </div>
         </div>
       </div>
-    </section>
-    <section class="container-fluid flex-wrapper px-5">
-      <div class="d-flex wrapper justify-content-between">
+    </div>
+  </section>
+  <section class="container-fluid flex-wrapper px-5">
+    <div>
+      <!-- <div id="demo" class="carousel slide" data-ride="carousel"></div> -->
+      <div class="d-flex wrapper justify-content-between flex-wrap">
         <a href="#">
           <img src="./images/img1.png" alt="image" />
           <h5>Home Help</h5>
@@ -436,15 +390,256 @@
           <h5>Dementia Care</h5>
         </a>
       </div>
-      <a href="#" class="services-link align-self-center mt-5">
-        View all Services</a
-      >
-    </section>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./index.js"></script>
-  </body>
+    </div>
+    <a href="#" class="services-link align-self-center mt-5">
+      View all Services</a>
+  </section>
+  <section class="container-fluid flex-wrapper2 px-5">
+    <div class="swiper mySwiper">
+      <!-- <div id="demo" class="carousel slide" data-ride="carousel"></div> -->
+
+      <div class="d-flex wrapper justify-content-between swiper-wrapper">
+        <a href="#" class="swiper-slide">
+          <img src=" ./images/img1.png" alt="image" />
+          <h5>Home Help</h5>
+        </a>
+        <a href="#" class="swiper-slide">
+          <img src="./images/img2.png" alt="image" />
+          <h5>Companionship</h5>
+        </a>
+        <a href="#" class="swiper-slide">
+          <img src="./images/img3.png" alt="image" />
+          <h5>Personal Care</h5>
+        </a>
+        <a href="#" class="swiper-slide">
+          <img src="./images//img4.png" alt="image" />
+          <h5>Dementia Care</h5>
+        </a>
+        </a>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-scrollbar"></div>
+    </div>
+        <a href="#" class="services-link align-self-center mt-5">
+      View all Services</a>
+  </section>
+  
+  <section class="container-fluid slider-container p-0 px-2">
+    <div class="row m-0 p-0 d-flex justify-content-between ">
+      <div class="col-md me-2 w-md-50">
+        <h5 class="text-center">Advice & <span>Support</span></h5>
+        <p class="text-center small-text my-4">
+          Advice and support on ageing from the <br />
+          Home Instead network.
+        </p>
+        <div class="d-flex align-items-center mt-5 mb-5 slideshow-container">
+          <img class="slide-image" src="./images/img5.png" alt="image" />
+          <div class="ms-4 d-flex flex-column px-3">
+            <h6>How to choose the right elderly care</h6>
+            <p class="mt-2">
+              The process of looking for care can also feel overwhelming -
+              especially if it’s the first time you have had to think about
+              it. Home Instead Senior Care is here to help you make an
+              informed choice that is right for all those involved.
+            </p>
+            <a class="align-self-end" href="#">Read more</a>
+          </div>
+        </div>
+        <a href="#" class="service-link1"> More advice </a>
+      </div>
+      <div class="col-md ms-3 w-md-50">
+        <h5 class="text-center">Latest <span>News</span></h5>
+        <p class="text-center small-text my-4">
+          Check out the latest news and events from <br />
+          across the Home Instead network
+        </p>
+        <div class="swiper mySwiper2 mb-5">
+          <div class="slideshow-container swiper-wrapper mt-4">
+            <div class="swiper-slide">
+              <div class="d-flex align-items-center">
+                <img class="slide-image" src="./images/tech-allaince.png" alt="image" />
+                <div class="ms-4 d-flex flex-column px-3">
+                  <h6>How to choose the right elderly care</h6>
+                  <p class="mt-2">
+                    process of looking for care can also feel overwhelming -
+                    especially if it’s the first time you have had to think
+                    about it. Home Instead Senior Care is here to help you make
+                    an informed choice that is right for all those involved.
+                  </p>
+                  <a href="#" class="align-self-end">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="d-flex align-items-center">
+                <img class="slide-image" src="./images/woman.png" alt="image" />
+                <div class="ms-4 d-flex flex-column px-3">
+                  <h6>How to choose the right elderly care</h6>
+                  <p class="mt-2">
+                    looking for care can also feel overwhelming - especially if
+                    it’s the first time you have had to think about it. Home
+                    Instead Senior Care is here to help you make an informed
+                    choice that is right for all those involved.
+                  </p>
+                  <a href="#" class="align-self-end">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="d-flex align-items-center">
+                <img class="slide-image" src="./images/demotia.png" alt="image" />
+                <div class="ms-4 d-flex flex-column px-3">
+                  <h6>How to choose the right elderly care</h6>
+                  <p class="mt-2">
+                    The process of looking for care can also feel overwhelming -
+                    especially if it’s the first time you have had to think
+                    about it. Home Instead Senior Care is here to help you make
+                    an informed choice that is right for all those involved.
+                  </p>
+                  <a href="#" class="align-self-end mt-3">Read more</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+
+        <!-- <div class="d-flex justify-content-end mb-4" style="text-align: center">
+           <div class="swiper-pagination"></div>
+        </div> -->
+        <a href="#" class="service-link2"> More news</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer d-flex flex-column pb-5">
+    <div class="container-fluid p-0">
+      <div class="row m-0 ">
+        <div class="col-md">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">National News & Events</a></li>
+            <li><a href="#">Franchise Opportunities</a></li>
+            <li><a href="#">Home Instead Charities</a></li>
+            <li><a href="#">Home Instead Worldwide</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md">
+          <h3>Our Expertise</h3>
+          <ul>
+            <li><a href="#">How can we help?</a></li>
+            <li><a href="#">How does our care work?</a></li>
+            <li><a href="#">Our Care Professionals </a></li>
+            <li><a href="#">Partnerships and professionals</a></li>
+            <li><a href="#">What people say about us</a></li>
+            <li><a href="#">Companionship</a></li>
+          </ul>
+        </div>
+        <div class="col-md">
+          <h3>Get Started</h3>
+          <ul>
+            <li><a href="#">Home Care Services</a></li>
+            <li><a href="#">Book a Consultation</a></li>
+            <li><a href="#">Meet the team </a></li>
+            <li><a href="#">Join our team</a></li>
+            <li><a href="#">Why choose Home Instead?</a></li>
+          </ul>
+        </div>
+        <div class="col-md contact">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>National Office</li>
+            <li>Calls may be recorded for quality and training purposes.</li>
+            <li>
+              Registered Office: Unit 2, Walnut Tree Business Centre, Walnut
+              Tree Farm, Lower Stretton, Warrington, Cheshire WA4 4PG
+            </li>
+            <li>
+              Registered in England. Company Registration Number: 5564869. VAT
+              no.: 896794339
+            </li>
+            <li> <a href="#">HSE risk assessment</a> | <a href="#">Privacy Policy</a> | <a href="#">Cookies Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="align-self-center mt-5 foot">© 2022 Home Instead, Inc. All Rights Reserved. Each Home Instead franchise
+      office is independently owned and operated.</div>
+  </footer>
+  <a href="#c1" class="bottom-link" id="link">Go to top</a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      centeredSlides: false,
+      slidesPerGroupSkip: 3,
+      grabCursor: true,
+      keyboard: {
+        enabled: true,
+      },
+      breakpoints: {
+        769: {
+          slidesPerView: 3,
+          slidesPerGroup: 3,
+        },
+        600: {
+          slidesPerView: 2,
+          slidesPerGroup: 3,
+        },
+        320: {
+          slidesPerView: 1,
+          slidesPerGroup: 2,
+        }
+      },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
+
+
+
+    var swiper = new Swiper(".mySwiper2", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
 </html>

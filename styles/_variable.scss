@@ -4,9 +4,34 @@
 
 $deep-dark-pink: #611b4b;
 $dark-pink: #631b4b;
+$marun: #671E45;
 $blue: #0081a3;
 $tew-blue:#0088a4;
 $purple:#6c5da5;
 $light-dark: #434343;
 $white: #fff;
-$light-grey:#e5e5e5
+$light-grey:#e5e5e5;
+$light-white: rgb(239, 230, 230);
+
+@mixin tab {
+    @media screen and (max-width:1200px){
+        @content;
+    }
+}
+
+@mixin tablets {
+    @media screen and (max-width:768px){
+        @content;
+    }
+}
+@mixin mobile {
+    @media screen and (max-width:600px){
+        @content;
+    }
+}
+
+@mixin mobile2 {
+    @media screen and (max-width:480){
+        @content;
+    }
+}
