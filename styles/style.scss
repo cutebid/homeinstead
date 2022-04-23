@@ -813,115 +813,117 @@ body {
         margin: auto;
         box-shadow: 2px 2px 2px rgb(215, 214, 214);
 
-        @include mobile{
+        @include mobile {
           height: 300px;
         }
-        
-    }
-    .swiper-slide {
-      transition: all 1s ease;
-    }
-    h5 {
-      font-size: 3rem;
-      font-weight: 400;
+      }
+      .swiper-slide {
+        transition: all 1s ease;
+      }
+      h5 {
+        font-size: 3rem;
+        font-weight: 400;
 
-      @include mobile {
-        margin-top: 50px;
+        @include mobile {
+          margin-top: 50px;
+        }
+        // &:last-child{
+        //         @include mobile{
+        //   margin-top: 300px;
+        // }
+        // }
+        span {
+          font-weight: 600;
+        }
       }
-      // &:last-child{
-      //         @include mobile{
-      //   margin-top: 300px;
-      // }
-      // }
-      span {
-        font-weight: 600;
-      }
-    }
-    .small-text {
-      font-size: 1.5rem;
-      letter-spacing: 1px;
-      @include tab {
-        font-size: 1.2rem;
-      }
-    }
-    .ms-2 {
-      h6 {
+      .small-text {
         font-size: 1.5rem;
-        color: $marun;
-        font-weight: 600;
-      }
-      p {
-        color: $light-dark;
-        line-height: 1.5;
-      }
-      a {
-        color: black;
         letter-spacing: 1px;
+        @include tab {
+          font-size: 1.2rem;
+        }
       }
-    }
-    .slide-image {
-      width: 50%;
-      height: 450px;
-      object-fit: cover;
-      @include mobile{
-        display: none;
+      .ms-2 {
+        h6 {
+          font-size: 1.5rem;
+          color: $marun;
+          font-weight: 600;
+        }
+        p {
+          color: $light-dark;
+          line-height: 1.5;
+        }
+        a {
+          color: black;
+          letter-spacing: 1px;
+        }
       }
-    }
-    .service-link1 {
-      text-decoration: none;
-      color: black;
-      border: 1px solid black;
-      font-size: 1.5rem;
-      font-weight: 400;
-      padding: 20px 70px;
-      border-radius: 5px;
-      margin-left: 200px;
-      margin-top: 20px;
-      @include tab {
-        margin-top: 50px;
-        font-size: 1.2rem;
-         padding: 15px 50px;
-        
-        margin-left: 150px;
+      .slide-image {
+        width: 50%;
+        height: 450px;
+        object-fit: cover;
+        @include mobile {
+          display: none;
+        }
       }
-
-      @include tablets {
-        margin-left: 250px;
-      }
-      @include mobile{
-        margin-left: 120px;
-      }
-    }
-    .service-link2 {
-      text-decoration: none;
-      color: black;
-      border: 1px solid black;
-      font-size: 1.5rem;
-      font-weight: 400;
-      padding: 20px 70px;
-      border-radius: 5px;
-      margin-left: 200px;
-      @include tab {
-               margin-top: 50px;
-        font-size: 1.2rem;
+      .service-link1 {
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 20px 70px;
+        border-radius: 5px;
+        margin-left: 200px;
+        margin-top: 20px;
+        @include tab {
+          margin-top: 50px;
+          font-size: 1.2rem;
           padding: 15px 50px;
-        
-        margin-left: 150px;
+
+          margin-left: 150px;
+        }
+
+        @include tablets {
+          margin-left: 250px;
+        }
+        @include mobile {
+          margin-left: 120px;
+        }
       }
-            @include tablets {
-        margin-left: 250px;
-      }
-            @include mobile{
-        margin-left: 120px;
+      .service-link2 {
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 20px 70px;
+        border-radius: 5px;
+        margin-left: 200px;
+        @include tab {
+          margin-top: 50px;
+          font-size: 1.2rem;
+          padding: 15px 50px;
+
+          margin-left: 150px;
+        }
+        @include tablets {
+          margin-left: 250px;
+        }
+        @include mobile {
+          margin-left: 120px;
+        }
       }
     }
   }
-}
-.footer {
+  .footer {
     background-color: $light-dark;
     margin-top: 100px;
     color: $white;
     //  padding: 50px 100px;
+    @include tablets {
+      margin-bottom: 100px;
+    }
 
     .row {
       padding: 50px 150px;
@@ -1009,55 +1011,62 @@ body {
         width: 50%;
         &:first-child {
           background-color: $tew-blue;
+
+          svg {
+            fill: white;
+          }
         }
         &:last-child {
           background-color: $dark-pink;
+          svg {
+            fill: white;
+          }
         }
       }
     }
   }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  // box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    // box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
-.dropdown:hover .dropbtn {
-  cursor: pointer;
-}
+  .dropdown:hover .dropbtn {
+    cursor: pointer;
+  }
 
-/* The dots/bullets/indicators */
+  /* The dots/bullets/indicators */
 
-.dot {
-  height: 10px;
-  width: 10px;
-  margin: 0 5px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
 
-.active {
-  background-color: #717171;
-}
+  .active {
+    background-color: #717171;
+  }
 }

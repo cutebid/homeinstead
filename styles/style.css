@@ -1264,6 +1264,12 @@ body .footer {
   color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+  body .footer {
+    margin-bottom: 100px;
+  }
+}
+
 body .footer .row {
   padding: 50px 150px;
   border-bottom: 1px solid #727171;
@@ -1378,8 +1384,16 @@ body .bottom-section .span-wrapper span:first-child {
   background-color: #0088a4;
 }
 
+body .bottom-section .span-wrapper span:first-child svg {
+  fill: white;
+}
+
 body .bottom-section .span-wrapper span:last-child {
   background-color: #631b4b;
+}
+
+body .bottom-section .span-wrapper span:last-child svg {
+  fill: white;
 }
 
 body .dropdown-content {
