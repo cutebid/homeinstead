@@ -259,7 +259,7 @@ body {
         width: 70%;
       }
       @include tablets {
-        margin: 120px 30px;
+        margin: 120px 20px;
         width: 90%;
       }
       @include mobile {
@@ -307,7 +307,7 @@ body {
         @include mobile {
           padding: 15px 20px;
           font-size: 1rem;
-          width: 40%;
+          width: 45%;
           margin-left: 100px;
         }
       }
@@ -329,6 +329,9 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
+      @include mobile {
+        left: 45%;
+      }
       svg {
         fill: white;
         width: 100%;
@@ -510,6 +513,9 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
+      @include mobile {
+        left: 45%;
+      }
       svg {
         fill: white;
         width: 100%;
@@ -664,6 +670,9 @@ body {
       div {
         span {
           color: rgb(124, 121, 121);
+          @include mobile {
+            display: none;
+          }
           a {
             color: $purple;
             font-weight: 500;
@@ -876,6 +885,7 @@ body {
         border-radius: 5px;
         margin-left: 200px;
         margin-top: 20px;
+
         @include tab {
           margin-top: 50px;
           font-size: 1.2rem;
@@ -888,7 +898,7 @@ body {
           margin-left: 250px;
         }
         @include mobile {
-          margin-left: 120px;
+          margin-left: 100px;
         }
       }
       .service-link2 {
@@ -900,6 +910,7 @@ body {
         padding: 20px 70px;
         border-radius: 5px;
         margin-left: 200px;
+
         @include tab {
           margin-top: 50px;
           font-size: 1.2rem;
@@ -911,7 +922,7 @@ body {
           margin-left: 250px;
         }
         @include mobile {
-          margin-left: 120px;
+          margin-left: 100px;
         }
       }
     }
