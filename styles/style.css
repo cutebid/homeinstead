@@ -102,7 +102,6 @@ body .main-wrapper {
 }
 
 body .main-wrapper .header {
-  height: 150px;
   position: relative;
 }
 
@@ -322,10 +321,12 @@ body .main-wrapper .header nav {
 
 body .main-wrapper .header nav .lists {
   list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 body .main-wrapper .header nav .lists .list-item {
-  margin-left: 20px;
+  padding: 5px 20px;
 }
 
 body .main-wrapper .header nav .lists .list-item .dropdown {
@@ -337,16 +338,16 @@ body .main-wrapper .header nav .lists .list-item .dropdown a {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 0.75rem;
 }
 
 body .main-wrapper .header nav .nav-link {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 0.75rem;
   background-color: #0088a4;
-  padding: 15px 10px;
+  padding: 16px 20px;
 }
 
 body .main-wrapper .hero-text {
@@ -693,7 +694,7 @@ body .hero-wrapper .hero-text .hero-title span {
 
 body .hero-wrapper .hero-text .hero-info {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 

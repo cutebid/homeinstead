@@ -88,7 +88,6 @@ body {
       height: 95vh;
     }
     .header {
-      height: 150px;
       position: relative;
       @include tab {
         height: 80px;
@@ -235,9 +234,10 @@ body {
         }
         .lists {
           list-style: none;
+          flex-wrap: wrap;
 
           .list-item {
-            margin-left: 20px;
+            padding: 5px 20px;
 
             .dropdown {
               position: relative;
@@ -247,7 +247,7 @@ body {
                 text-decoration: none;
                 color: $white;
                 font-weight: 600;
-                font-size: 1.1rem;
+                font-size: 0.75rem;
               }
             }
           }
@@ -256,10 +256,9 @@ body {
           text-decoration: none;
           color: $white;
           font-weight: 600;
-          font-size: 1.2rem;
+          font-size: 0.75rem;
           background-color: $tew-blue;
-
-          padding: 15px 10px;
+          padding: 16px 20px;
         }
       }
     }
@@ -497,7 +496,7 @@ body {
       }
       .hero-info {
         color: $white;
-        font-size: 2rem;
+        font-size: 1.6rem;
         font-weight: 400;
         @include tablets{
           font-size: 1.4rem;
