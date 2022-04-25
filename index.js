@@ -1,9 +1,25 @@
 window.addEventListener("scroll", function () {
   var header = document.querySelector("header");
+  var text = document.querySelector("#text-white");
+  var navText = document.querySelectorAll('nav li .dropdown .dropbtn');
+  var input = this.document.querySelector('header input');
+  
   if (this.window.scrollY > 0) {
     header.classList.add("sticky");
+    text.style.color = 'black'
+    text.style.border ='1px solid black'
+    input.style.border = '1px solid lightGrey'
+    navText.forEach(text => {
+      text.style.color = 'black'
+    })
   } else {
     header.classList.remove("sticky");
+    text.style.color ='white'
+    text.style.border = "1px solid white";
+      input.style.border = "none";
+    navText.forEach((text) => {
+      text.style.color = "white";
+    });
   }
 });
 window.addEventListener("scroll", function () {

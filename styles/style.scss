@@ -112,7 +112,7 @@ body {
         nav {
           .dropdown {
             a {
-              background-color: #b3a9dc;
+              color: red;
             }
           }
         }
@@ -160,6 +160,16 @@ body {
         // @include tab {
         //   border-bottom: 1px solid #706e6d;
         // }
+        .material-icons{
+          display: none;
+          @include tablets{
+            display: flex;
+            font-size: 3rem;
+            color: white;
+            margin-right: 10px;
+            font-weight: 600;
+          }
+        }
         .search {
           position: relative;
           @include tablets {
@@ -200,6 +210,7 @@ body {
           padding: 10px 15px;
           font-weight: 500;
           color: white;
+
           @include tab {
             display: none;
           }
@@ -261,10 +272,11 @@ body {
       @include tablets {
         margin: 120px 20px;
         width: 90%;
+          text-align: center;
       }
-      @include mobile {
-        text-align: center;
-      }
+      // @include mobile {
+      //   text-align: center;
+      // }
 
       .hero-title {
         color: $white;
@@ -273,6 +285,9 @@ body {
         letter-spacing: 2px;
         span {
           font-weight: 600;
+        }
+        @include tablets{
+          font-size: 2.2rem;
         }
         @include mobile {
           font-size: 2rem;
@@ -283,6 +298,9 @@ body {
         letter-spacing: 1px;
         font-size: 1.6rem;
         font-weight: 400;
+        @include tablets{
+          font-size: 1.4rem;
+        }
         @include mobile {
           font-size: 1.3rem;
         }
@@ -300,15 +318,16 @@ body {
         width: 25%;
         letter-spacing: 1px;
 
-        @include tab {
-          width: 40%;
+               @include tablets{
+          width: 50%;
+          margin: 0 auto;
         }
 
         @include mobile {
           padding: 15px 20px;
           font-size: 1rem;
-          width: 45%;
-          margin-left: 100px;
+          width: 60%;
+          margin: 100px 80px;
         }
       }
     }
@@ -320,7 +339,7 @@ body {
     //  height: 200px;
     .arrow-down-icon {
       position: absolute;
-      left: 50%;
+      left: 47%;
       top: -30px;
       width: 50px;
       height: 50px;
@@ -329,9 +348,12 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      @include mobile {
+       @include tablets{
         left: 45%;
       }
+      // @include mobile {
+      //   left: 43%;
+      // }
       svg {
         fill: white;
         width: 100%;
@@ -452,16 +474,20 @@ body {
         padding: 200px 150px;
         @include tablets {
           padding: 150px 30px;
-        }
-        @include mobile {
           text-align: center;
         }
+        // @include mobile {
+        //   text-align: center;
+        // }
       }
       .hero-title {
         color: $white;
         font-weight: 300;
         font-size: 2.7rem;
         letter-spacing: 2px;
+        @include tablets{
+          font-size: 2.4rem;
+        }
         @include mobile {
           font-size: 2rem;
         }
@@ -472,7 +498,10 @@ body {
       .hero-info {
         color: $white;
         font-size: 2rem;
-        font-weight: 300;
+        font-weight: 400;
+        @include tablets{
+          font-size: 1.4rem;
+        }
         @include mobile {
           font-size: 1.3rem;
         }
@@ -493,6 +522,10 @@ body {
         // @include tab{
         //   width: 50%;
         // }
+        @include tablets{
+          width: 50%;
+          margin: 0 auto;
+        }
 
         @include mobile {
           padding: 15px 20px;
@@ -504,7 +537,7 @@ body {
     }
     .arrow-down-icon {
       position: absolute;
-      left: 50%;
+      left: 47%;
       bottom: -20px;
       width: 50px;
       height: 50px;
@@ -513,9 +546,12 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      @include mobile {
+      @include tablets{
         left: 45%;
       }
+      // @include mobile {
+      //   left: 43%;
+      // }
       svg {
         fill: white;
         width: 100%;
